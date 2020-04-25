@@ -1,0 +1,25 @@
+import os
+os.system("mkdir pythoncarpetadesdefuncion2")
+os.system("chmod 777 pythoncarpetadesdefuncion2")
+directorioActual = os.getcwd()
+os.chdir(f"{directorioActual}/pythoncarpetadesdefuncion2")
+f = open ('holamundo.txt','w')
+f.write('hola mundo\nhola\nsoy\nkender\nu\nhacker')
+f.close()
+f = open ('holamundo2.txt','w')
+f.write('hola mundo\nnuevamente')
+f.close()
+
+
+archivo = open('holamundo.txt', 'r')
+
+for linea in archivo:
+    print(linea)
+  
+
+archivo.close()
+
+
+lsdirectorio = os.listdir("./")
+for cosa in lsdirectorio:
+	print(cosa)
