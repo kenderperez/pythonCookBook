@@ -11,3 +11,6 @@ elementosSoup = soup.find_all('span', class_='nombre-equipo') #buscar elementos 
 for iten in elementosSoup:
 	print(iten.text)
 
+#Buscar por atributo: 
+#soup.find_all("a", attrs={"class": "sister"})
+#soup.find_all(id='link2')
