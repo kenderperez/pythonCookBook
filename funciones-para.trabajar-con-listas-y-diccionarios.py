@@ -33,3 +33,8 @@ while True:
 
     for i in lista:
         print(i)
+
+#la funcion range crea una lista con los numeros del 1 al 3
+lista = ['perro', 'gato', 'pollos', 'vacas']
+for i in range(len(lista)):
+    print('el indice: ' + str(i) + ' le pertenece el elemento: ' + lista[i])
