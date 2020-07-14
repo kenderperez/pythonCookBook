@@ -48,3 +48,4 @@ gmail.sendmail(remitente, destinatario, header.as_string())
 
 #Cerrar la conexión SMTP
 gmail.quit()
+#fin
